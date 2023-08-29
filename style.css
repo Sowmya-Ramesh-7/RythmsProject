@@ -1,0 +1,73 @@
+*{
+font-family: 'Ysabeau Office', sans-serif;
+margin:0;
+padding:0;
+}
+
+body{
+background:linear-gradient(45deg,black,85%,blue);
+color:white;
+height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.menu{
+display:flex;
+justify-content:space-evenly;
+list-style-type:none;
+position:sticky;
+background-color:black;
+}
+.rythm{
+font-size:25px;
+margin-top:10px;
+}
+
+.left{
+display:flex;
+align-items:left;
+margin-right:auto;
+}
+
+.right{
+display:flex;
+justify-content:space-between;
+}
+
+#logo{
+width:70px;
+height: 70px;
+
+}
+
+a{
+text-decoration:none;
+color:white;
+}
+.musicCards{
+margin:20px;
+height:250px;
+width:150px;
+background-color:#041E42;
+display:flex;
+overflow:hidden;
+justify-content:center;
+border-radius:20px;
+}
+.top{
+height:70%;
+margin:10px;
+}
+
+.cardimage{
+height:150px;
+width:140px;
+border-radius:10px;
+}
+
+li{
+margin:5px;
+padding:5px;
+}
+
